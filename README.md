@@ -1,0 +1,2 @@
+# Tietokannat_syksy_2021_jamilla
+Tietokannat

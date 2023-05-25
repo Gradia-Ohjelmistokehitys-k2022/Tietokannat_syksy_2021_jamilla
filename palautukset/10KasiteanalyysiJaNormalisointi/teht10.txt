@@ -1,0 +1,27 @@
+1. Selvitä mitä tarkoittaa tietokannan normalisointi.
+	• tietokannan järjestämistä tehokkaammaksi ilman toistoa ja päällekkäisyyksiä
+
+2. Selvitä mitä tarkoittaa
+ a. ensimmäinen normaalimuoto,
+	• (1NF) vaatii, että tietokannan jokaisen taulun sarakkeiden eli relaatioiden attribuuttien arvot ovat atomisia
+ b. toinen normaalimuoto,
+	• (2NF) kieltää ei-avainattribuuttien ei-triviaalit funktionaaliset riippuvuudet avainehdokkaan osaan
+ c. kolmas normaalimuoto ja
+	• (3NF)  kieltää attribuuteilta, jotka eivät ole avaimia, ei-triviaalit toiminnalliset riippuvuudet muihin kuin 
+		 avainehdokkaiden superjoukkoon
+ d. neljäs normaalimuoto.
+	• (4NF) kieltää ei-triviaalit riippuvuudet attribuuttijoukoilta muihin kuin ehdokasavainten superjoukkoon.
+		Yleinen esimerkki neljännestä normaalimuodosta on tilanne, jossa attribuutti A määrää B:n ja C:n arvot,
+		niin että B ja C eivät ole toisistaan riippuvaisia
+
+3. Selvitä mitä tarkoittaa tietokannan denormalisointi.
+a. Milloin sitä käytetään?
+	• Tietokannan denormalisointi on tarkoituksellinen sääntöjen rikkominen parantaakseen suorituskykyä 
+	  tai helpottaakseen monimutkaisten kyselyjen toteuttamista
+b. Mitä hyötyä ja haittaa siitä on?
+	• Hyöty: nopeampi tiedonhaun suorituskyky
+	  Haitta: tietojen päivitysten monimutkaisuus ja mahdolliset ristiriidat tiedoissa
+
+
+
+

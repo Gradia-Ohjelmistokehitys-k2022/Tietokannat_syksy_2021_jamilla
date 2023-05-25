@@ -1,0 +1,63 @@
+1. Mikä on tietokanta?
+
+• Järjestetty tietokoneen tallentama tietojen ja informaation kooste. Tietoja voidaan hakea, päivittää, 
+hallita ja tallentaa. Tietokanta koostuu yleensä yhdestä tai useammasta taulususta.
+
+2. Mikä on tietokannan hallintajärjestelmä?
+
+• Hallintajärjestelmä on ohjelmisto jonka tehtävänä on hakea, tallentaa ja järjestää tietokoneella olevia tietoja.
+
+3. Mihin tietokantoja käytetään?
+
+• Tietojen keräämiseen ja järjestämiseen, jotta tieto on helposti ja nopeasti saatavilla. 
+
+4. Minkälaisessa tilanteessa olet itse käyttänyt tietokantaa (syöttänyt tietoja, muuttanut tietoja, tehnyt erilaisia hakuja) viimeisen kuukauden, viikon ja tuntien aikana?
+
+• Omakanta, Spotify, Webtoon, Youtube, Pinterest, Instagram, Opintopolku, Kitsu, Reddit ..jne
+Suurinosa sovelluksista joita käytän sisältää jonkilaisen tietokannan kun rekisteröidymme sinne, tarkastelemme käyttäjäämme liitettyjä tai liittämiämme tietoja. 
+Tämän lisäksi jo pelkästää verkkosivut, joille emme edes kirjaudu sisältävät tietokanta ratkaisuja taustalla, tästä hyvä esimerkki voisi olla IMDb ja 
+Rotten Tomatoes, joissa voimme tarkastella tietoja ja arvosteluja tv-sarjoista ja elokuvista.
+
+5. Tee nettiin haku sanalla "relaatiotietokanta". Selaa sivustoja läpi ja kerro, mikä oli
+parhaan sivuston osoite (mistä näytti löytyvän hyödyllisintä tietoa)?
+
+• https://appro.mit.jyu.fi/doc/tiedonhallinta/tietokannat/index2.html
+
+
+Hae kurssin materiaalista ja netistä tietoa ja vastaa seuraaviin kysymyksiin omin esimerkein.
+
+
+6. Kuka on relaatiotietokantojen "isä"?
+
+• Edgar F. Codd
+
+7. Mitä relaatiotietokannassa tarkoitetaan kentällä ja kerro siitä itse keksitty esimerkki?
+
+• Relaatiotietokannassa kenttä tarkoittaa taulun saraketta, joka määrittää tietyn tyyppisen tiedon tallennusmuodon ja nimen taulussa.
+  Esim. tietokannassa, joka sisältää asiakkaiden tietoja, kenttiä voivat olla etunimi, sukunimi, sähköpostiosoite ja osoite
+
+8. Mitä relaatiotietokannassa tarkoitetaan tietueella ja kerro siitä itse keksitty
+esimerkki?
+
+• Tietue tarkoittaa tietokannan yhtä riviä joka sisältää kaikki tietokannan kentät.
+  esim. asiakastietokannassa yksi tietue voisi sisältää yhden asiakkaan kaikki tiedot, kuten etunimi, sukunimi, sähköpostiosoite ja osoite.
+
+9. Mitä relaatiotietokannassa tarkoitetaan perusavaimella ja kerro siitä itse keksitty esimerkki?
+
+• Perusavain on tietokannan kenttä tai joukko kenttiä, joiden arvot ovat uniikkeja koko tietokannassa. 
+  esim. asiakastietokannassa jokaiselle asiakkaalle voidaan antaa uniikki asiakasnumero joka toimii perusavaimena
+
+10. Mitä relaatiotietokannassa tarkoitetaan viiteavaimella ja kerro siitä itse keksitty esimerkki?
+
+• Viiteavain tarkoittaa kenttää tai joukko kenttiä, jotka viittaavat toisen taulun perusavaimiin. 
+
+11. Hae netistä tietoa, mitä relaatiotietokannassa tarkoitetaan yksi-moneen yhteydellä ja kerro siitä yksi esimerkki?
+
+•  Tietokantayhteys, mikä määrittelee suhteen yhden taulun rivin ja toisen taulun useamman rivin välillä. 
+   ...yhden taulun yksi rivi vastaa toisen taulun useita rivejä.
+
+
+
+
+
+

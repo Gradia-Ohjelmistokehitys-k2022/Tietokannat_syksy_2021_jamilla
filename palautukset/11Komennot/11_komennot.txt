@@ -1,0 +1,63 @@
+1.	INSERT INTO - Lisää uuden rivin tietokantatauluun.
+	SELECT - Hakee tietoja tietokantataulusta tai useista tauluista.
+	CREATE DATABASE - Luo uuden tietokannan.
+	CREATE TABLE - Luo uuden taulun tietokantaan.
+
+2.	JOIN-liitosyhdistää tauluja yhteisen sarakkeen avulla, jolloin voidaan
+	yhdistää tietoja useista tauluista yhdessä kyselyssä.
+
+3.	Tietotyypit SQL:ssä luvuille ovat INTEGER (kokonaisluku) ja FLOAT (liukuluku). 
+	INTEGER-arvoalue on yleensä -2,147,483,648 - 2,147,483,647, kun taas FLOAT-arvoalue 
+	vaihtelee tietokantajärjestelmästä riippuen.
+
+4. 	SQL antaa "out of range value" -virheilmoituksen, kun yritetään syöttää luku, 
+	joka on tietotyypin sallitun arvoalueen ulkopuolella.
+
+5. 	Unsigned-luku voi olla huomattavasti suurempi, koska se ei käytä bittiä etumerkille, 
+	mikä mahdollistaa positiivisten lukujen suuremman alueen verrattuna signed-lukuun, 
+	joka varaa yhden bitin etumerkille.
+
+6.	Varchar-tietotyyppi säilyttää muuttuvan määrän merkkejä, kun taas char-tietotyyppi
+	varaa kiinteän määrän merkkejä, joka täytetään tarvittaessa tyhjillä merkeillä.
+
+7. 	Varbinary-tietotyyppi tallentaa muuttuvan määrän binääridataa tietokannassa.
+
+8.	Esimerkkejä tekstityyppisistä tiedoista ovat "John Doe" tai "Hello, World!", 
+	kun taas esimerkkejä binäärisistä tiedoista voivat olla kuvatiedostot, äänitiedostot 
+	tai muita binäärimuotoisia tiedostoja.
+
+9.	Kaksi komentotapaa perusavaimen (primary key) luomiseen ovat:
+	a) CREATE TABLE -syntaksi: CREATE TABLE taulun_nimi (kenttä_nimi tietotyyppi PRIMARY KEY)
+	b) ALTER TABLE -syntaksi: ALTER TABLE taulun_nimi ADD PRIMARY KEY (kenttä_nimi)
+
+10.	Perusavain toimii taulun yksilöivänä avaimena, joka takaa, että jokainen rivi taulussa
+	on yksilöllinen ja sen arvoja voidaan käyttää rivujen yksilöimiseen ja tiedon eheyden varmistamiseen.
+
+11.	Viiteavaimen (foreign key) tehtävänä on luoda yhteys kahden taulun välille. 
+	Se määrittää suhteen päätaulun ja sivutaulun välillä ja mahdollistaa eheyden ylläpitämisen 
+	sekä tietojen liittämisen taulujen välillä.
+
+12.	Viiteavain määritetään SQL-komennolla esimerkiksi seuraavasti:
+	ALTER TABLE taulun_nimi ADD CONSTRAINT constraint_nimi FOREIGN KEY (viiteavain_kenttä) REFERENCES toinen_taulu (viitekenttä).
+	Viite-eheyssäännöt määritellään parametreina:
+
+	ON DELETE CASCADE: Poistaa liittyvät rivit toisesta taulusta, kun päätaulusta poistetaan rivi.
+	ON UPDATE CASCADE: Päivittää liittyvät rivit toisessa taulussa, kun päätaulun riviä päivitetään.
+
+13.	Kentän voi määrittää yksilölliseksi (vain uniikkeja arvoja) myös UNIQUE-rajoitteella. Esimerkiksi: CREATE TABLE taulun_nimi (kenttä_nimi tietotyyppi UNIQUE).
+
+14.	Kentän indeksointi parantaa hakunopeutta tietokannassa. Kannattaa indeksoida kentät, joita usein käytetään hakuehtoina tai liittymäkenttinä useissa kyselyissä.
+
+15.	a) NOT NULL määrittelee, että kenttä ei voi olla tyhjä (NULL).
+	b) AUTO INCREMENT määrittelee, että kentän arvo generoidaan automaattisesti ja kasvaa automaattisesti jokaisen uuden rivin lisäämisen yhteydessä.
+	c) DEFAULT määrittelee kentän oletusarvon, joka käytetään, jos arvoa ei anneta.
+	d) ZEROFILL täyttää numerokentän johtavat nollat, jolloin esimerkiksi luku 5 tallennetaan muodossa 00005.
+
+
+
+
+
+
+
+
+
